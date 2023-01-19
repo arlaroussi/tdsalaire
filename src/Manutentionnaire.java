@@ -1,7 +1,7 @@
 /* **********************************************************************
  *  La classe Manutentionnaire
  * **********************************************************************/
-class Manutentionnaire extends Employe {
+class Manutentionnaire extends Employe implements ARisque{
     private final static double SALAIRE_HORAIRE = 65.0;
     private int heures;
 

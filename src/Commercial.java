@@ -3,7 +3,7 @@
  *  La classe Commercial (regroupe Vendeur et Représentant)
  * **********************************************************************/
 
-class Commercial extends Employe {
+class Commercial extends Employe implements ARisque {
         private double chiffreAffaires;
 
         public Commercial(String prenom, String nom, int age, String date,double chiffreAffaires) {
@@ -21,7 +21,7 @@ class Commercial extends Employe {
 
     @Override
     public void afficherCategorieSalarie() {
-
+        System.out.println("Catégorie employé : "+this.getNom());
     }
 }
 

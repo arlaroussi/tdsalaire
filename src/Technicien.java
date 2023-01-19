@@ -14,13 +14,8 @@ class Technicien extends Employe {
         return FACTEUR_UNITE * unites;
     }
 
-    public String getTitre()
-    {
+    public String getTitre() {
+
         return "Le technicien ";
-    }
-
-    @Override
-    public void afficherCategorieSalarie() {
-
     }
 }

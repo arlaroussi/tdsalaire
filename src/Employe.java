@@ -1,7 +1,7 @@
 /* **********************************************************************
  *  La classe Employe
  * **********************************************************************/
-abstract class Employe implements ARisque {
+abstract class Employe {
     private String nom;
     private String prenom;
     private int age;
