@@ -1,7 +1,7 @@
 /* **********************************************************************
  *  La classe Représentant
  * **********************************************************************/
-class Representant extends Commercial implements ARisque{
+class Representant extends Commercial {
     private final static double POURCENT_REPRESENTANT = 0.2;
     private final static int BONUS_REPRESENTANT = 800;
 

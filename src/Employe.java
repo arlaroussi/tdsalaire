@@ -18,10 +18,22 @@ abstract class Employe {
     public abstract double calculerSalaire();
 
     public String getTitre(){
-            return "L'employé " ;
-        }
+        return "L'employé " ;
+    }
 
     public String getNom() {
         return getTitre() + prenom + " " + nom;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void afficherCategorieSalarie() {
+        System.out.println("Catégorie employé : "+this.getClass());
     }
 }

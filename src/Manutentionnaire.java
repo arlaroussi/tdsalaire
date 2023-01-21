@@ -5,8 +5,7 @@ class Manutentionnaire extends Employe implements ARisque{
     private final static double SALAIRE_HORAIRE = 65.0;
     private int heures;
 
-    public Manutentionnaire(String prenom, String nom, int age, String date,
-                            int heures) {
+    public Manutentionnaire(String prenom, String nom, int age, String date,int heures) {
         super(prenom, nom, age, date);
         this.heures = heures;
     }
@@ -19,8 +18,4 @@ class Manutentionnaire extends Employe implements ARisque{
         return "Le manut. " ;
     }
 
-    @Override
-    public void afficherCategorieSalarie() {
-
-    }
 }

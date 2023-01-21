@@ -15,7 +15,6 @@ class Technicien extends Employe {
     }
 
     public String getTitre() {
-
         return "Le technicien ";
     }
 }
