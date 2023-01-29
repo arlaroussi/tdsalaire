@@ -8,6 +8,6 @@ class ManutARisque extends Manutentionnaire {
     }
 
     public double calculerSalaire() {
-        return super.calculerSalaire() + PRIME;
+        return super.calculerSalaire() + 200;
     }
 }
