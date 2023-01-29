@@ -1,7 +1,7 @@
 /* **********************************************************************
  *  La classe Employe
  * **********************************************************************/
-abstract class Employe {
+class Employe {
     private String nom;
     private String prenom;
     private int age;
@@ -15,7 +15,9 @@ abstract class Employe {
         this.date = date;
     }
 
-    public abstract double calculerSalaire();
+    public double calculerSalaire() {
+        return 0.0;
+    };
 
     public String getTitre(){
         return "L'employé " ;
