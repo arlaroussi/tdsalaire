@@ -17,5 +17,4 @@ class Manutentionnaire extends Employe {
     public String getTitre()  {
         return "Le manut. " ;
     }
-
 }

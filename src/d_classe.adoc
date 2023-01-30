@@ -1,0 +1,35 @@
+[plantuml]
+
+.Les méthodes
+----
+class Employe {
+-nom : String
+-prenom : integer
+-age : integer
+-date : String
++Employe(nom, prenom, age, date)
++calculerSalaire(): double
++getTitre(): String
++getNom(): String
++getPrenom(): String
++getAge(): integer
++getDate(): String
+}
+
+class Commercial {
+-chiffreAffaire: double
++commercial(nom, prenom, age, date, chiffreAffaire)
++getChiffreAffaires()
++calculerSalaire():double
+}
+
+class Vendeur {
+-POURCENT_VENDEUR = 0.2
+-BONUS_VENDEUR = 400
++Vendeur(String prenom, String nom, int age, String date,double chiffreAffaires)
++calculerSalaire():double
++getTitre(): String
+}
+Employe <|-- Commercial
+Commercial <|-- Vendeur
+

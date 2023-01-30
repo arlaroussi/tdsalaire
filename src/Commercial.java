@@ -16,7 +16,7 @@ class Commercial extends Employe {
         }
 
         public double calculerSalaire() {
-            return 0;
+            return 0.0;
         }
 }
 
