@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ee926bf-439a-4864-9678-2ea6728d3731" name="Changes" comment="Modification du fichier Employe : Suppression interface">
-      <change afterPath="$PROJECT_DIR$/src/d_classe.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Commercial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commercial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manutentionnaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manutentionnaire.java" afterDir="false" />
+    <list default="true" id="6ee926bf-439a-4864-9678-2ea6728d3731" name="Changes" comment="Ajout asciidoc">
+      <change beforePath="$PROJECT_DIR$/src/d_classe.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docts/d_classe.adoc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675022544664</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ajout asciidoc">
+      <created>1675107710850</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675107710850</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +143,7 @@
     <MESSAGE value="Traitement du cas des redondances au niveau des employés" />
     <MESSAGE value="Suppression de l'interface" />
     <MESSAGE value="Modification du fichier Employe : Suppression interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification du fichier Employe : Suppression interface" />
+    <MESSAGE value="Ajout asciidoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout asciidoc" />
   </component>
 </project>
